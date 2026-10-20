@@ -6,6 +6,9 @@
 
 int main() {
     setlocale(LC_ALL, "Russian");
+     // Вывод заголовка таблицы
+    // std::setw(8) выделяет 8 символов под "x" (выравнивание по правому краю)
+    // std::setw(10) выделяет 10 символов под "sin(x)"
     std::cout << std::setw(8) << "x"
               << std::setw(10) << "sin(x)" << "\n";
     std::cout << std::string(20,'-') << "\n";
